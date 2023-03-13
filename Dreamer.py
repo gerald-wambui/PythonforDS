@@ -55,6 +55,8 @@ def main():
     layer = 'mixed4d_3x3_bottleneck_pre_relu'
     channel = 139
 
+# I wanna say her name again
+
     img0 = PIL.Image.open('pilatus800.jpg')
     img0 = np.float32(img0)
     render_deepdream(T(layer)[:,:,:,139] img0)
